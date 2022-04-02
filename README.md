@@ -16,3 +16,8 @@ Installation
 
 * [Archlinux AUR](https://aur.archlinux.org/)
 * ???
+
+See Also
+--------
+
+This plugin has been inspired by this project: https://github.com/iammathew/docker-port-forward.
