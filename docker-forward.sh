@@ -23,7 +23,7 @@ CUT
 
 usage() {
     cat <<EOF
-Usage: docker port-forward <local address> <local port> <remote address> <remote port> [remote docker network]
+Usage: docker forward <local address> <local port> <remote address> <remote port> [remote docker network]
 EOF
 }
 
@@ -40,15 +40,13 @@ then
     exit 0
 fi
 
-env
-
 if [ "$1" == "-h" ] || [ "$1" == "--help" ]
 then
     usage
     exit 0
 fi
 
-if [ "$#" != 4 ]
+if [ "$#" -lt 4 ]
 then
     echo "Missing argument!"
     usage
