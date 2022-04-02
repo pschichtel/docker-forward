@@ -3,6 +3,8 @@
 
 set -euo pipefail
 
+version="1"
+
 metadata() {
     local socat
     socat="$(which socat 2>/dev/null || echo "")"
@@ -15,8 +17,9 @@ metadata() {
 {
     "SchemaVersion": "0.1.0",
     "Vendor": "Phillip Schichtel",
-    "Version": "v1",
-    "ShortDescription": "Docker Port Forward${socat_notice}"
+    "Version": "v${version}",
+    "ShortDescription": "Docker Port Forward${socat_notice}",
+    "URL": "https://github.com/pschichtel/docker-forward"
 }
 CUT
 }
