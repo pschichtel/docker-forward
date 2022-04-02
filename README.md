@@ -14,7 +14,7 @@ Installation
 
 ### Distro Packages
 
-* [Archlinux AUR](https://aur.archlinux.org/)
+* [Archlinux AUR](https://aur.archlinux.org/packages/docker-forward)
 * ???
 
 See Also
