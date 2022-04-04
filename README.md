@@ -37,6 +37,7 @@ Installation
 1. Make sure all dependencies are installed: `bash`, `socat`, `docker-cli`
 2. `mkdir -p "$HOME/.docker/cli-plugins"`
 3. `curl -L -o "HOME/.docker/cli-plugins/docker-forward" 'https://raw.githubusercontent.com/pschichtel/docker-forward/main/docker-forward.sh'`
+4. `chmod +x "HOME/.docker/cli-plugins/docker-forward"`
 
 ### Distro Packages
 
