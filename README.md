@@ -42,6 +42,7 @@ Installation
 ### Distro Packages
 
 * [Archlinux AUR](https://aur.archlinux.org/packages/docker-forward)
+* [Debian/Ubuntu MPR](https://mpr.makedeb.org/packages/docker-forward)
 * ???
 
 See Also
